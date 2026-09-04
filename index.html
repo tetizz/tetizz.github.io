@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests"
+    >
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#111512">
+    <meta
+      name="description"
+      content="The fast starting point for tetizz chess projects: play bots, study games, trace player connections, explore Scottish Progressive, and open Chess Notes."
+    >
+    <link rel="canonical" href="https://tetizz.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="tetizz / chess lab">
+    <meta
+      property="og:description"
+      content="One clear gateway to tetizz chess projects."
+    >
+    <meta property="og:url" content="https://tetizz.github.io/">
+    <title>tetizz / chess lab</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to projects</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="https://tetizz.github.io/" aria-label="tetizz chess lab home">
+          <span class="brand-mark" aria-hidden="true">tz</span>
+          <span class="brand-copy">
+            <strong>tetizz</strong>
+            <span>chess lab</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#projects">Projects</a>
+          <a href="https://tetizz.github.io/Home/">Home</a>
+          <a class="nav-github" href="https://github.com/tetizz">
+            GitHub
+            <svg aria-hidden="true" viewBox="0 0 16 16">
+              <path d="M4.25 11.75 11.75 4.25M5.25 4.25h6.5v6.5"></path>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow"><span aria-hidden="true"></span> Open chess projects</p>
+            <h1 id="hero-title">One move to<br><em>wherever&rsquo;s next.</em></h1>
+            <p class="hero-intro">
+              Play unusual opponents, sharpen a repertoire, trace player connections,
+              or explore a different kind of chess. Everything starts here.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">
+                Explore the projects
+                <svg aria-hidden="true" viewBox="0 0 18 18">
+                  <path d="M3 9h12M10.5 4.5 15 9l-4.5 4.5"></path>
+                </svg>
+              </a>
+              <a class="button button-quiet" href="https://github.com/tetizz">Browse the code</a>
+            </div>
+          </div>
+
+          <div class="position-window" aria-hidden="true">
+            <div class="window-bar">
+              <span>LAB INDEX</span>
+              <span>06 / LIVE</span>
+            </div>
+            <div class="position-body">
+              <div class="board-wrap">
+                <div class="board">
+                  <span class="piece piece-knight">&#9822;</span>
+                  <span class="piece piece-king">&#9812;</span>
+                  <span class="piece piece-pawn">&#9817;</span>
+                  <span class="piece piece-rook">&#9820;</span>
+                  <span class="target-square"></span>
+                </div>
+                <span class="rank rank-eight">8</span>
+                <span class="rank rank-one">1</span>
+                <span class="file file-a">a</span>
+                <span class="file file-h">h</span>
+              </div>
+              <div class="move-strip">
+                <span>PLAY</span>
+                <span>STUDY</span>
+                <span>TRACE</span>
+                <span>EXPLORE</span>
+              </div>
+            </div>
+            <div class="window-foot">
+              <span><i class="status-dot"></i> Ready</span>
+              <span>tetizz.github.io</span>
+            </div>
+          </div>
+        </div>
+
+        <ul class="shell hero-meta" aria-label="Site highlights">
+          <li><strong>06</strong> public destinations</li>
+          <li><strong>00</strong> runtime dependencies</li>
+          <li><strong>01</strong> clean starting point</li>
+        </ul>
+      </section>
+
+      <section class="projects" id="projects" aria-labelledby="projects-title">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-index">01 / PROJECT DIRECTORY</p>
+              <h2 id="projects-title">Pick your board.</h2>
+            </div>
+            <p>
+              Six direct routes, each built around a different way to play,
+              study, or understand chess.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-home">
+              <div class="card-topline">
+                <span class="card-number">01</span>
+                <span class="card-label">Gateway</span>
+              </div>
+              <div class="project-symbol" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <path d="M9 19.5 24 8l15 11.5V40H9Z"></path>
+                  <path d="M18 40V27h12v13M8 40h32"></path>
+                </svg>
+              </div>
+              <div class="card-copy">
+                <h3>Home</h3>
+                <p>The original project hub, with a little more context on the core chess tools.</p>
+              </div>
+              <div class="card-actions">
+                <a class="project-link" href="https://tetizz.github.io/Home/">
+                  Open Home <span aria-hidden="true">&#8599;</span>
+                </a>
+                <a class="source-link" href="https://github.com/tetizz/Home">Source</a>
+              </div>
+            </article>
+
+            <article class="project-card project-play">
+              <div class="card-topline">
+                <span class="card-number">02</span>
+                <span class="card-label">Play</span>
+              </div>
+              <div class="project-symbol" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <path d="M24 7v7M16 16h16a9 9 0 0 1 9 9v9a7 7 0 0 1-7 7H14a7 7 0 0 1-7-7v-9a9 9 0 0 1 9-9Z"></path>
+                  <path d="M15 27h6m-3-3v6M30.5 26.5h.01M35.5 30.5h.01"></path>
+                </svg>
+              </div>
+              <div class="card-copy">
+                <h3>Play Bots</h3>
+                <p>Play custom chess opponents, then revisit the game with built-in review tools.</p>
+              </div>
+              <div class="card-actions">
+                <a class="project-link" href="https://tetizz.github.io/Play/">
+                  Start a game <span aria-hidden="true">&#8599;</span>
+                </a>
+                <a class="source-link" href="https://github.com/tetizz/Play">Source</a>
+              </div>
+            </article>
+
+            <article class="project-card project-bookup">
+              <div class="card-topline">
+                <span class="card-number">03</span>
+                <span class="card-label">Study</span>
+              </div>
+              <div class="project-symbol" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <path d="M8 10.5h12a6 6 0 0 1 6 6V40a7 7 0 0 0-7-7H8ZM40 10.5H28a2 2 0 0 0-2 2V40a7 7 0 0 1 7-7h7Z"></path>
+                  <path d="M13 18h8M13 23h8M31 18h5M31 23h5"></path>
+                </svg>
+              </div>
+              <div class="card-copy">
+                <h3>Bookup</h3>
+                <p>Import your games and turn the positions you reach into focused opening practice.</p>
+              </div>
+              <div class="card-actions">
+                <a class="project-link" href="https://tetizz.github.io/Bookup/">
+                  Build a repertoire <span aria-hidden="true">&#8599;</span>
+                </a>
+                <a class="source-link" href="https://github.com/tetizz/Bookup">Source</a>
+              </div>
+            </article>
+
+            <article class="project-card project-connections">
+              <div class="card-topline">
+                <span class="card-number">04</span>
+                <span class="card-label">Trace</span>
+              </div>
+              <div class="project-symbol" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <circle cx="12" cy="13" r="5"></circle>
+                  <circle cx="36" cy="18" r="5"></circle>
+                  <circle cx="18" cy="36" r="5"></circle>
+                  <path d="m16.5 14 14.5 3M14 18l2.5 13M22.5 33.5 32 22"></path>
+                </svg>
+              </div>
+              <div class="card-copy">
+                <h3>Chess Connections</h3>
+                <p>Find real win chains between Chess.com players and open the games that prove each link.</p>
+              </div>
+              <div class="card-actions">
+                <a class="project-link" href="https://tetizz.github.io/Connections/">
+                  Trace a connection <span aria-hidden="true">&#8599;</span>
+                </a>
+                <a class="source-link" href="https://github.com/tetizz/Connections">Source</a>
+              </div>
+            </article>
+
+            <article class="project-card project-progressive">
+              <div class="card-topline">
+                <span class="card-number">05</span>
+                <span class="card-label">Variant</span>
+              </div>
+              <div class="project-symbol" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <path d="M10 39h28M14 35l7-9 6 4 9-15"></path>
+                  <path d="m29 15 7-1 1 7"></path>
+                  <circle cx="14" cy="35" r="2"></circle>
+                  <circle cx="21" cy="26" r="2"></circle>
+                  <circle cx="27" cy="30" r="2"></circle>
+                </svg>
+              </div>
+              <div class="card-copy">
+                <h3>Scottish Progressive</h3>
+                <p>Play and analyze Scottish Progressive Chess with a purpose-built browser board and engine.</p>
+              </div>
+              <div class="card-actions">
+                <a class="project-link" href="https://tetizz.github.io/progressive/">
+                  Explore the variant <span aria-hidden="true">&#8599;</span>
+                </a>
+                <a class="source-link" href="https://github.com/tetizz/progressive">Source</a>
+              </div>
+            </article>
+
+            <article class="project-card project-notes">
+              <div class="card-topline">
+                <span class="card-number">06</span>
+                <span class="card-label">Notebook</span>
+              </div>
+              <div class="project-symbol" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <path d="M12 7h24v34H12Z"></path>
+                  <path d="M18 7v34M23 16h8M23 22h8M23 28h6"></path>
+                  <path d="M9 14h6M9 21h6M9 28h6M9 35h6"></path>
+                </svg>
+              </div>
+              <div class="card-copy">
+                <h3>Chess Notes</h3>
+                <p>Open a browser chess workspace with routes for play, puzzles, theory, and study.</p>
+              </div>
+              <div class="card-actions">
+                <a class="project-link" href="https://tetizz.github.io/chess-notes-/">
+                  Open the workspace <span aria-hidden="true">&#8599;</span>
+                </a>
+                <a class="source-link" href="https://github.com/tetizz/chess-notes-">Source</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="principles" aria-labelledby="principles-title">
+        <div class="shell principles-layout">
+          <div>
+            <p class="section-index">02 / HOW IT IS BUILT</p>
+            <h2 id="principles-title">Direct by design.</h2>
+          </div>
+          <ul class="principle-list">
+            <li>
+              <span>01</span>
+              <div>
+                <h3>No detours</h3>
+                <p>Every primary link opens the public project itself.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h3>No heavy layer</h3>
+                <p>This index uses plain HTML and CSS with no runtime JavaScript.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h3>Keyboard ready</h3>
+                <p>Clear focus states and comfortable targets stay visible at every size.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="shell closing-inner">
+          <p class="section-index">03 / SOURCE SHELF</p>
+          <h2 id="closing-title">Want the pieces<br>behind the boards?</h2>
+          <a class="button button-light" href="https://github.com/tetizz">
+            Visit tetizz on GitHub
+            <svg aria-hidden="true" viewBox="0 0 18 18">
+              <path d="M3 9h12M10.5 4.5 15 9l-4.5 4.5"></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p><strong>tetizz</strong> / chess lab</p>
+        <nav aria-label="Footer navigation">
+          <a href="#projects">Projects</a>
+          <a href="https://tetizz.github.io/Home/">Home</a>
+          <a href="https://github.com/tetizz">GitHub</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
