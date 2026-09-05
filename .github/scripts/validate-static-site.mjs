@@ -85,8 +85,8 @@ if (failures.length === 0) {
     failures.push("Homepage is missing the project directory landmark");
   }
 
-  if ((index.match(/<article\b/g) ?? []).length !== 6) {
-    failures.push("Homepage must contain exactly six project articles");
+  if (!index.includes("<h1>tetizz.github.io</h1>")) {
+    failures.push("Homepage must retain the original plain repository title");
   }
 
   if (!css.includes("@media (prefers-reduced-motion: reduce)")) {
@@ -97,8 +97,8 @@ if (failures.length === 0) {
     failures.push("Stylesheet is missing a visible keyboard-focus treatment");
   }
 
-  if (!css.includes("min-width: 320px")) {
-    failures.push("Stylesheet must preserve the 320px viewport floor");
+  if (css.includes("min-width: 320px")) {
+    failures.push("Stylesheet must allow narrow viewports without a fixed width floor");
   }
 
   if (/url\s*\(\s*["']?https?:/i.test(css)) {

@@ -1,9 +1,10 @@
-# tetizz / chess lab
+# tetizz.github.io
 
-The root gateway for the public chess projects at <https://tetizz.github.io/>.
+A plain index for the public chess projects at <https://tetizz.github.io/>.
 
-The site is intentionally dependency-free: semantic HTML, one stylesheet, and
-an SVG favicon. It is published to GitHub Pages from `main`.
+The page keeps the original README-like appearance, with direct project links,
+a working 404 page, keyboard navigation, and a script-free security policy.
+GitHub Pages publishes the static files from `main`.
 
 ## Validate locally
 
@@ -11,5 +12,4 @@ an SVG favicon. It is published to GitHub Pages from `main`.
 node .github/scripts/validate-static-site.mjs
 ```
 
-Serve the repository root with any static server for browser testing. For
-example: `python -m http.server 4173`.
+Serve the repository root with a static server for browser testing.
